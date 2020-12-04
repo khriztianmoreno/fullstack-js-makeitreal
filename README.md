@@ -2,4 +2,4 @@
 
 ## About
 
-Lorempsin 
+Software developer 
