@@ -10,4 +10,4 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 
 ## 👩🏻‍💻 👨🏼‍💻Participantes
 
-- [Nombre completo] - Profesion - Github
+- Juan Pablo Acosta Betancur - Ingeniero mecatrónico - https://github.com/Jpacosta23
