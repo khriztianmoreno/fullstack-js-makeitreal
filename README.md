@@ -10,4 +10,5 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 
 ## 👩🏻‍💻 👨🏼‍💻Participantes
 
+- Alejandro Becerra - Administrador de empresas y Product Manager - https://github.com/becerra2906
 - Cristopher Rojas - Analista Programador de Sistemas - https://github.com/cristopher1202
