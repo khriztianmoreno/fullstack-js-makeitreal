@@ -10,4 +10,4 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 
 ## 👩🏻‍💻 👨🏼‍💻Participantes
 
-- [Nombre completo] - Profesion - Github
+- Alejandro Becerra - Administrador de empresas y Product Manager - https://github.com/becerra2906
