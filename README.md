@@ -12,4 +12,4 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 
 - Alejandro Becerra - Administrador de empresas y Product Manager - https://github.com/becerra2906
 
--maria sirley
+- Maria Sirley Tangarife Gil (Tecnologa en Analisi y Desarrollo de Sistemas de informacion) - https://github.com/Mariatangarife1998 
