@@ -10,4 +10,4 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 
 ## 👩🏻‍💻 👨🏼‍💻Participantes
 
-- Laura Monsalve Arroyave - Administradora Comercial y de Mercadeo - lauramonsalvearroyave
+- Laura Monsalve Arroyave - Administradora Comercial y de Mercadeo - https://github.com/lauramonsalvearroyave
