@@ -12,3 +12,4 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 
 - Isabella Serna - desarrollador - Isabella-417
 - Alejandro Becerra - Administrador de empresas y Product Manager - https://github.com/becerra2906
+-Juan Pablo Acosta - Ingeniero mecatrónico -https://github.com/Jpacosta23
