@@ -1,4 +1,4 @@
-# Full Stack JS Web Developer 
+# Full Stack JS Web Developer
 > Aprenderás a crear aplicaciones Web con HTML, CSS, Bootstrap, JavaScript, Node.js, MongoDB, React y GraphQL.
 
 ## 👨🏼‍🏫 Mentor
@@ -11,5 +11,6 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 ## 👩🏻‍💻 👨🏼‍💻Participantes
 
 - Cristopher Rojas - Analista Desarrollador - https://github.com/cristopher1202
+- Cristian Moreno - Developer - https://github.com/khriztianmoreno
 - Isabella Serna - desarrollador - Isabella-417
 - Alejandro Becerra - Administrador de empresas y Product Manager - https://github.com/becerra2906
