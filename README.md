@@ -10,6 +10,7 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 
 ## 👩🏻‍💻 👨🏼‍💻Participantes
 
+- Daniela Calle Estrada - Ingeniera de sistemas - Dany0913
 - Cristian Moreno - Developer - https://github.com/khriztianmoreno
 - Isabella Serna - desarrollador - Isabella-417
 - Alejandro Becerra - Administrador de empresas y Product Manager - https://github.com/becerra2906
