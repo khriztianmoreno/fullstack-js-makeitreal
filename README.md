@@ -19,3 +19,4 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 - Cristopher Rojas - Analista Programador de Sistemas - https://github.com/cristopher1202
 - Maria Sirley Tangarife Gil (Tecnologa en Analisis y Desarrollo de Sistemas de informacion) - https://github.com/Mariatangarife1998
 - Laura Monsalve Arroyave - Administradora Comercial y de Mercadeo - https://github.com/lauramonsalvearroyave
+- Brianith Navarro - Designer and engineer - https://github.com/briaenrose
