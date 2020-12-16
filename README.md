@@ -10,7 +10,6 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 
 ## 👩🏻‍💻 👨🏼‍💻Participantes
 
-- Cristopher Rojas - Analista Desarrollador - https://github.com/cristopher1202
 - Daniela Calle Estrada - Ingeniera de sistemas - Dany0913
 - Cristian Moreno - Developer - https://github.com/khriztianmoreno
 - Isabella Serna - desarrollador - Isabella-417
