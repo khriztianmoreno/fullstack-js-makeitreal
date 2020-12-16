@@ -17,5 +17,9 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 - Alejandro Becerra - Administrador de empresas y Product Manager - https://github.com/becerra2906
 -Juan Pablo Acosta - Ingeniero mecatrónico -https://github.com/Jpacosta23
 - Cristopher Rojas - Analista Programador de Sistemas - https://github.com/cristopher1202
+<<<<<<< HEAD
 - Maria Sirley Tangarife Gil (Tecnologa en Analisis y Desarrollo de Sistemas de informacion) - https://github.com/Mariatangarife1998
 - Laura Monsalve Arroyave - Administradora Comercial y de Mercadeo - https://github.com/lauramonsalvearroyave
+=======
+- Mónica González - Ingeniera Química - https://github.com/monicagmeza11
+>>>>>>> monica_gonzalez
