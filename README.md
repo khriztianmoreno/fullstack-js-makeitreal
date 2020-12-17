@@ -1,5 +1,8 @@
 # Full Stack JS Web Developer
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 > Aprenderás a crear aplicaciones Web con HTML, CSS, Bootstrap, JavaScript, Node.js, MongoDB, React y GraphQL.
 
 ## 👨🏼‍🏫 Mentor
@@ -10,6 +13,17 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 
 ## 👩🏻‍💻 👨🏼‍💻Participantes
 
+<<<<<<< HEAD
 - Laura Ramos - ingeniera financiera - https://github.com/lauramosdim
+=======
+- Daniel Alvarez - web designer - https://github.com/dansata
+- Daniela Calle Estrada - Ingeniera de sistemas - Dany0913
+- Cristian Moreno - Developer - https://github.com/khriztianmoreno
+>>>>>>> master
 - Isabella Serna - desarrollador - Isabella-417
 - Alejandro Becerra - Administrador de empresas y Product Manager - https://github.com/becerra2906
+-Juan Pablo Acosta - Ingeniero mecatrónico -https://github.com/Jpacosta23
+- Cristopher Rojas - Analista Programador de Sistemas - https://github.com/cristopher1202
+- Maria Sirley Tangarife Gil (Tecnologa en Analisis y Desarrollo de Sistemas de informacion) - https://github.com/Mariatangarife1998
+- Laura Monsalve Arroyave - Administradora Comercial y de Mercadeo - https://github.com/lauramonsalvearroyave
+- Brianith Navarro - Designer and engineer - https://github.com/briaenrose
