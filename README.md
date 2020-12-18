@@ -30,3 +30,4 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 - Mónica González - Ingeniera Química - https://github.com/monicagmeza11
 - Brianith Navarro - Designer and engineer - https://github.com/briaenrose
 - Laura V. De Armas - Administradora de Empresas y Designer - https://github.com/Lauravdearmas
+- Jun Lopera - Publicista estratega digital
