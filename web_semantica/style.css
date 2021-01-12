@@ -1,0 +1,82 @@
+body {
+    
+    min-height: 100hv;
+    font-family: 'Ubuntu', sans-serif;
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    
+    margin-left: 92%;
+    margin-top: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+h1 {
+    color: white;
+    font-weight: 10px;
+    font-size: 80px;
+    align-items: center;
+    margin-top: 30%;
+    margin-left: 25%;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    
+    height: auto;
+    width: 100vw;
+    
+
+}
+
+.footercontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.enlaces {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.enlaces li {
+    margin: 0 10px;
+    margin-left: 30px;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: white;
+}
+
+.enlaces a:hover{
+    
+    color: pink;
+}
