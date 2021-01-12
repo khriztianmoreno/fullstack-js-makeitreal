@@ -1,0 +1,374 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+}
+
+/*Header CSS*/
+
+.header{
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+.menu{
+    height: 50px;
+    width: 50px;
+    right: 35px;
+    top: 35px;
+    border-radius: 25px;
+    background-color: #6366F1;
+    position: absolute;
+}
+.language{
+    position: absolute;
+    width: 59px;
+    height: 21px;
+    right: 200px;
+    top: 49px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.71);
+}
+.line{
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 27px;
+    height: 0px;
+    right: 10px;
+    top: 52px;
+    border: 1.5px solid #FFFFFF;
+}
+.line1{
+    top: 17px;
+
+}
+.line2{
+    top: 25px;
+}
+.line3{
+    width: 13.85px;
+    top: 33px;
+}
+
+/*Main CSS*/
+
+/*Main CSS --> General*/
+
+.main-content{
+    position: relative;
+    width: 100%;
+}
+.general-span{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+}
+.general-button{
+    background: #6366F1;
+    color: #FFFFFF;
+    height: 44px;
+    border-radius: 25px;
+    font-size: 15px;
+    line-height: 18px;
+    border-color: #6366F1;
+    border: none;
+}
+.general-line{
+    position: absolute;
+    width: 98.02px;
+    height: 0px;
+    background-color: #6366F1;
+    border: 3px solid #6366F1;
+}
+.general-container{
+    width: 70%;
+    margin: 5% auto;
+    position: relative;
+}
+div.general-container h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+/*Main CSS --> Presentation title*/
+
+.presentation{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.presentation-division{
+    position: relative;
+    width: 50%;
+    height: 300px;
+}
+
+.img-diagonal-lines{
+    position: absolute;
+    width: 165px;
+    height: 154px;
+    right: 133px;
+    top: 1%;
+    background-image: url('../img/img-diagonal-lines.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.img-main{
+    position: absolute;
+    background-image: url('../img/img-main-yo.jpg');
+    width: 225px;
+    height: 245px;
+    right: 2%;
+    top: 44px;
+    border: 4px solid rgba(99, 102, 241, 0.8);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 225px 245px;
+    border-radius: 30px;
+}
+.presentation-title{
+    right: -10px;
+    bottom: 0;
+}
+div.presentation-title h1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 20% 0 0 5%;
+}
+div.presentation-title p{
+    margin: 5% 0 0 5%;
+}
+.presentation-subline{
+    /* position: absolute; */
+    width: 290px;
+    height: 13px;
+    background: rgba(99, 102, 241, 0.3);
+    border-radius: 18px;
+    margin: 0 0 0 5%;
+}
+
+/*Main CSS --> About*/
+.about{
+
+}
+.about-title{
+    width: 100%;
+    position: relative;    
+}
+.about-text{
+    width: 70%;
+    margin: auto 0;
+}
+div.about-text p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 267.69%;
+    /* or 40px */
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.about-button{
+    width: 30%;
+    position: absolute;
+    right: -10%;
+    top: 40%;
+}
+.about-button-resume{
+    width: 210px;
+}
+.about-line{
+    top: 50%;
+    left: 190px;
+}
+
+
+/*Main CSS --> Projects*/
+
+.project{
+    /* margin: auto; */
+    text-align: center;
+}
+div.project button{
+    margin: 5% 0;
+    width: 139px;
+}
+.project-title{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.project-line{
+    top: 50px;
+    right: 46%;
+}
+.project-boxes{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-top{
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+.img-botton{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+.project-box{
+    /* display: inline-block; */
+    margin: 1%;
+    width: 300px;
+    height: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 2%;
+    position: relative;
+}
+div.project-box h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+}
+div.project-box p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+div.project-box img{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+div.project-box a{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: #6366F1;
+}
+/*div.project-box a:link{
+    color: red;
+}
+div.project-box a:hover{
+    color: #6366F1;
+}
+.project-button{
+    margin: auto;
+}*/
+
+/*Main CSS --> Blogs*/
+.blog-title{
+    text-align: left;
+    position: relative;
+}11
+.blog-line{
+    top: 50%;
+    left: 130px;
+}
+.blog-boxes{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog-box{
+    /* display: inline-block; */
+    margin: 1%;
+    width: 390px;
+    height: 165px;
+    background: #FFFFFF;
+    padding: 2%;
+    position: relative;
+}
+.blog-button{
+    width: 151px;
+}
+
+/*Main CSS --> Skills*/
+.skills{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.skills-line{
+    top: 50px;
+    right: 46%;
+}
+div.skills-img img{
+    margin: 2%;
+}
+/*Footer CSS*/
+.footer-msj{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.55);
+}
+.footer-email{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.footer-subline{
+    /* position: absolute; */
+    width: 281px;
+    height: 16px;
+    /* left: 249px;
+    top: 2801px; */
+
+    background: rgba(22, 98, 245, 0.35);
+    border-radius: 18px;
+}
+.footer-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #6366F1;
+    position: absolute;
+    align-content: center;
+    top: 35px;
+}
+.footer-fb{
+    right: 140px;
+    background-image: url('../img/vector-fb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.footer-tw{
+    right: 70px;
+    background-image: url('../img/vector-twitter.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-insta{
+    right: 0;
+    background-image: url('../img/vector-insta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+}
