@@ -3,26 +3,16 @@ body{
     font-style: normal;
     font-weight: normal;
     letter-spacing: 0.01em;
+    width: 90%;
 }
-
-/*Header CSS*/
-
-.header{
+/* Nav CSS */
+.nav{
     width: 100%;
-    height: 120px;
-    position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
-.menu{
-    height: 50px;
-    width: 50px;
-    right: 35px;
-    top: 35px;
-    border-radius: 25px;
-    background-color: #6366F1;
-    position: absolute;
-}
-.language{
-    position: absolute;
+.nav-language{
+    /* position: absolute; */
     width: 59px;
     height: 21px;
     right: 200px;
@@ -34,30 +24,49 @@ body{
     line-height: 21px;
     color: rgba(0, 0, 0, 0.71);
 }
-.line{
+.nav-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    right: 35px;
+    top: 35px;
+    border-radius: 25px;
+    background-color: #6366F1;
+    /* position: absolute; */
+}
+.nav-group-circle-lines{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.nav-circle-line{
     background-color: #FFFFFF;
-    position: absolute;
+    /* position: absolute; */
     width: 27px;
     height: 0px;
     right: 10px;
     top: 52px;
-    border: 1.5px solid #FFFFFF;
+    /* border: 1.5px solid #FFFFFF; */
+    margin: 3px 0;
+    border: 2px solid #FFFFFF;
 }
-.line1{
-    top: 17px;
+.nav-circle-line-little{
+    width: 13.85px; 
+}
+.nav-button{
+    background-image: url('../img/vector-little-arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+/*Header CSS*/
 
-}
-.line2{
-    top: 25px;
-}
-.line3{
-    width: 13.85px;
-    top: 33px;
-}
 
-/*Main CSS*/
-
-/*Main CSS --> General*/
+/*General CSS --> General*/
 
 .main-content{
     position: relative;
@@ -77,6 +86,7 @@ body{
     line-height: 18px;
     border-color: #6366F1;
     border: none;
+    cursor: pointer;
 }
 .general-line{
     position: absolute;
@@ -169,6 +179,9 @@ div.presentation-title p{
 .about-title{
     width: 100%;
     position: relative;    
+}
+.about-title::after{
+    content: "------";
 }
 .about-text{
     width: 70%;
