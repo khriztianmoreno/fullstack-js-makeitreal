@@ -1,0 +1,226 @@
+.root{
+    position: relative;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+}
+header{
+    display: flex;
+}
+.languages{
+position: absolute;
+width: 59px;
+height: 21px;
+left: 1000px;
+top: 49px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+align-items: center;
+align-content: center;
+}
+.languages p{
+    margin: auto;    
+}
+.elipse{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1140px;
+    top: 35px;
+}
+
+.group1{
+    position: absolute;
+    width: 27px;
+    height: 16px;
+    left: 1152px;
+    top: 52px; 
+}
+
+.chevron1{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 1072px;
+    top: 55px;
+}
+
+.header_box{
+    position: absolute;
+    padding-top: 141px;
+    padding-left: 431px;
+    padding-right: 431px;
+    height: 225px;
+    width: 245px;
+}
+
+.header_image{
+    position: absolute;
+width: 165px;
+height: 154px;
+left: 431px;
+top: 141px;
+
+background: url(../images/rayasf-011.svg);
+}
+.header_profile_shot{
+    position: absolute;
+    width: 225px;
+    height: 245px;
+    left: 474px;
+    top: 185px;
+    background: url(../images/profile_pic.jpg);
+    border: 4px solid rgba(99, 102, 241, 0.8);
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.header_text{
+    position: absolute;
+    width: 283px;
+    height: 129px;
+    left: 724px;
+    top: 243px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size:  30px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    
+    color: rgba(0, 0, 0, 0.8);
+}
+.scroll{
+    position: absolute;
+    width: 91px;
+    height: 21px;
+    left: 724px;
+    top: 404px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+    letter-spacing: -0.01em;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.scroll_arrow{
+    width: 12px;
+    margin: auto;
+    padding: 2px;
+    justify-content: center;
+}
+.rectangle2{
+    
+position: absolute;
+width: 290px;
+height: 13px;
+left: 719px;
+top: 358px;
+
+background: rgba(99, 102, 241, 0.3);
+border-radius: 18px;
+}
+
+.scroll button{
+    background-color: transparent;
+    border: none;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    padding: 0px;
+}
+
+ .about_me_container{
+     position: relative;
+     display: inline-flex;
+     align-content: stretch;
+     width: 630px;
+     height: 290px;
+ } 
+.about_me{
+    position: absolute;
+    width: 160px;
+    height: 42px;
+    left: 250px;
+    top: 608px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;    
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.about_me_title_text{
+    display: block;
+    margin: auto;
+    width: 500px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.about_me_description{
+    position: absolute;
+    width: 630px;
+    height: 130px;
+    left: 250px;
+    top: 670px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 267.69%;
+    /* or 40px */
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.cv_download_button{
+    position: absolute;
+    width: 210px;
+    height: 44px;
+    left: 720px;
+    top:100px;
+    background: #6366F1;
+    border-radius: 25px;
+}
+.cv_download_button a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+/* identical to box height */
+    letter-spacing: 0.01em;
+    text-align: center;
+    align-items: center;
+    margin-left: 43px;
+}
+.cv_download_button a:link{
+    text-decoration: none;
+    color: #FFFFFF; ;
+}
+.cv_download_button a:visited{
+    text-decoration: none;
+    color: #FFFFFF; ;
+}
+.cv_download_button a:hover{
+    text-decoration: none;
+    color: black; ;
+}
