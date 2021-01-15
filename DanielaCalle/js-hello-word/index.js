@@ -1,2 +1,2 @@
-alert("Hola mundo alert");
-console.log("Hola mundo console");
+alert("Hola Javascripters alert");
+console.log("Hola Javascripters console");
