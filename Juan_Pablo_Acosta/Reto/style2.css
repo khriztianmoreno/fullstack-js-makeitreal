@@ -65,3 +65,68 @@ body{
 .nav_languages:hover .nav_dropdown_button_content {display: block;}
 
 .nav_languages:hover .nav_dropdown-button {background-color: #ddd;}
+
+.header{
+    display:flex;
+    margin-top: 56px;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+
+.header_decorative{
+    align-self: flex-start;
+}
+
+.header_profile img{
+    margin-left: -103px;
+    border:4px solid rgba(99, 102, 241, 0.8);
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.header_text{
+    width: 283px;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    margin-left: 25px;
+    margin-right: 433px;
+    font-size: 30px;
+    font-weight:bold;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.8);
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.header_scrolldown_button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+}
+
+.header_scrolldown_button:active{
+    background-color: rgb(211, 206, 206);
+}
+
+.header_scrolldown_button:hover{
+    cursor: pointer;
+}
+
+.header_scrolldown_button_img{
+    margin-left: 10.16px;
+}
