@@ -6,19 +6,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="css/main-styles.css">
-    <script src="js/main-app.js"></script>
-    <title>Blog - Make it real</title>
+    <title>Daniela Calle</title>
 </head>
 <body>
     <nav class="nav">
-        <div class="nav-language">
-            <button class="nav-dropdown">English <img src="img/vector-little-arrow-nav.png" alt="little-arrow"></button>
-                <!-- <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div> https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover-->
-            
+        <div class="nav-language">           
+            <button id="btnDropdown" class="nav-button">English</button>
+            <!-- <img src="img/vector-little-arrow-nav.png" alt="little-arrow"> -->
+                <div class="nav-dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">Spanish</a>
+                </div> 
         </div>
         <div class="nav-circle">
             <div class="nav-group-circle-lines">
@@ -35,7 +33,7 @@
                 <div class="img-main"></div>
             </div>
             <div class="presentation-division presentation-title">
-                <h1>Hello <img src="img/img-waving-hand.png" alt="waving-hand"><br>I'm Daniela Calle <br>a Fullstack Developer</h1>
+                <h1>Hello <img src="img/img-waving-hand.png" alt="waving-hand"><br>I'm Daniela Calle <br>a <span class="presentation-underline">Fullstack Developer</span></h1>
                 <div class="presentation-subline"></div>
                 <p>Scroll down <img src="img/vector-little-arrow.png" alt="little-arrow"></p>
             </div>     
@@ -43,22 +41,24 @@
         <div class="general-container about">
             <div class="about-title">
                 <h2>About me</h2>
-                <span class="general-line about-line"></span>
+                <div class="general-line about-line"></div>
             </div>
-            <div class="about-text">
-                <p>I’m currently working as a freelance <strong>fullstack developer</strong> and <strong>UI/UX designer.</strong> I enjoy building web apps using <span class="general-span"><img src="img/logo-tailwindcss-color.png" alt=""> TailwindCSS </span> and <span class="general-span"><img src="img/logo-react-color.png" alt=""> React </span> I'm also an active student in University of AMIKOM Yogyakarta.</p>
-            </div>
-            <div class="about-button">
-                <button class="general-button about-button-resumen">Download Resume</button>
+            <div class="about-text-container">
+                <div class="about-text">
+                    <p>I’m currently working as a freelance <strong>fullstack developer</strong> and <strong>UI/UX designer.</strong> I enjoy building web apps using <span class="general-span"><img src="img/logo-tailwindcss-color.png" alt=""> TailwindCSS </span> and <span class="general-span"><img src="img/logo-react-color.png" alt=""> React </span> I'm also an active student in University of AMIKOM Yogyakarta.</p>
+                </div>
+                <div class="about-button">
+                    <button class="general-button about-button-resumen">Download Resume</button>
+                </div>
             </div>
         </div>
         <div class="general-container project">
-            <div class="project-title">
-                <h2>Projects</h2>
-                <div class="general-line project-line"></div>
+            <h2>Projects</h2>
+            <div class="project-title">        
+                <div class="general-line center-line"></div>
             </div>
-            <img class="img-top" src="img/img-circles.png" alt="circles">
-            <img class="img-botton" src="img/img-circles.png" alt="circles">
+            <!-- <img class="img-top" src="img/img-circles.png" alt="circles">
+            <img class="img-botton" src="img/img-circles.png" alt="circles"> -->
             <div class="project-boxes">
                 <div class="project-box box-project-img-top">
                     <h3>Use pagination</h3>
@@ -128,9 +128,9 @@
 
         
         <div class="general-container skills">
+            <h2>Skills</h2>
             <div class="skills-title">
-                <h2>Skills</h2>
-                <div class="general-line skills-line"></div>
+                <div class="general-line center-line"></div>
             </div>
             <p>I’ve spent about two years on improving my skills in website development using <span class="general-span"><img src="img/logo-php.png" alt="logo-php"> PHP </span> and <span class="general-span"><img src="img/logo-js.png" alt="logo-js"> Javascript </span>that I’m now pretty confident in building apps using these tools:</p>
             <div class="skills-img">      
@@ -145,14 +145,19 @@
         </div>
     </main>
     <footer>
-        <div class="general-container">
-            <p class="footer-msj">Get in touch <img src="img/vector-hand.png" alt="hand"></p>
-            <p class="footer-email">me@me.com</p>
-            <div class="footer-subline"></div>
-            <div class="footer-logo footer-fb"></div>
-            <div class="footer-logo footer-tw"></div>
-            <div class="footer-logo footer-insta"></div>
+        <div class="general-container footer">
+            <div class="footer-msj-container">
+                <p class="footer-msj">Get in touch <img src="img/vector-hand.png" alt="hand"></p>
+                <p class="footer-email">dany0913@hotmail.com</p>
+                <div class="footer-subline"></div>
+            </div>
+            <div class="footer-logo-container">
+                <div class="footer-logo footer-fb"></div>
+                <div class="footer-logo footer-tw"></div>
+                <div class="footer-logo footer-insta"></div>
+            </div>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
