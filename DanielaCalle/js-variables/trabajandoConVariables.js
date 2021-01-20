@@ -1,7 +1,9 @@
-let admin;
-let name = "John";
+// Ejercicio 1: Trabajando con variables JS
 
-admin=name;
+let admin;
+let daniName = "John";
+
+admin=daniName;
 
 console.log(admin);
 alert(admin);
