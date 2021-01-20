@@ -1,6 +1,6 @@
-var admin;
+let admin;
 
-var name;
+let name;
 
 name = 'John';
 
