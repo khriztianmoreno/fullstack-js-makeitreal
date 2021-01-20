@@ -11,3 +11,10 @@ console.log(admin);
  que contiene mi variable */
 
 const namePlanet ='Tierra';
+
+/* userName se referencia muy bien el dato que 
+la variable almacena y el nombre es unico*/
+
+const nameUser = 'Maria';
+
+console.log('El nombre del usuario es: ' + nameUser + ' y vive en el planeta: ' + namePlanet);
