@@ -1,4 +1,4 @@
-const name = 'john';
-let admin = name;
+const nombre = 'john';
+let admin = nombre;
 
 alert(`The alert is ${admin}`);
