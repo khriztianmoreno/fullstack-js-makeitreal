@@ -3,4 +3,6 @@ const ourPlanet = 'Planet Earth';
 //La variable es llamada así porque referencia de forma acertada el usuario actual.
 let currentUser = 'cristopher.rojas';
 
+alert(`Nuestro planet es ${ourPlanet} y el usuario actual es ${currentUser}`);
+
 
