@@ -130,3 +130,84 @@ body{
 .header_scrolldown_button_img{
     margin-left: 10.16px;
 }
+
+.header_text_subtext{
+    position: relative;
+}
+
+.header_text_subtext::before{
+    position:absolute;
+    top:58px;
+    left:-242px;
+    content:"";
+    width: 266px;
+    height: 13px;
+    background: rgba(99, 102, 241, 0.3);
+    border-radius: 18px;
+}
+
+.section{
+    display:flex;
+    margin-top: 178px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.section_title{
+    height:42px;
+}
+
+.section_title h2{
+    width:160px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left:250px;
+}
+
+.line::after{
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 39.99px;
+    content:"";
+    width: 98.02px;
+    height:5px;
+    background:#6366F1;
+}
+
+.section_aboutme{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+
+}
+.section_aboutme_text{
+    font-size:15px;
+    margin-top:5px;
+    width:630px;
+    margin-left:250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+}
+
+.section_aboutme_button{
+    border:0px;
+    outline:none;
+    background-color: #6366F1;
+    border-radius: 25px;
+    color:white;
+    width: 210px;
+    height: 44px;
+    margin-left: 100px;
+    margin-top:20px;
+}
+
+button:active{
+    background-color:#5e60e7
+}
