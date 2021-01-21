@@ -1,0 +1,448 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+}
+/* Nav CSS */
+.nav{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-language{
+    width: 59px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.71);
+    margin: 0.5em 5%;
+    position: relative;
+    display: inline-block;    
+}
+.nav-button{
+    /* background-image: url('../img/vector-little-arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    height: 44px;
+    font-size: 15px;
+    line-height: 18px;
+}
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .nav-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .nav-dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .nav-language:hover .nav-dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .nav-language:hover .nav-button {
+    background-color: #6366F1;
+    color: #FFFFFF;
+  } */
+/* .nav-span{
+    background-image: url('../img/vector-little-arrow-nav.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    background-color: blueviolet;
+} */
+.nav-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    right: 35px;
+    top: 35px;
+    border-radius: 25px;
+    background-color: #6366F1;
+    /* position: absolute; */
+}
+.nav-group-circle-lines{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.nav-circle-line{
+    background-color: #FFFFFF;
+    /* position: absolute; */
+    width: 27px;
+    height: 0px;
+    right: 10px;
+    top: 52px;
+    /* border: 1.5px solid #FFFFFF; */
+    margin: 3px 0;
+    border: 2px solid #FFFFFF;
+}
+.nav-circle-line-little{
+    width: 13.85px; 
+}
+
+
+/*Header CSS*/
+
+
+/*General CSS --> General*/
+
+.main-content{
+    position: relative;
+    width: 100%;
+}
+.general-span{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    padding: 0.5%;
+}
+.general-button{
+    background: #6366F1;
+    color: #FFFFFF;
+    height: 44px;
+    border-radius: 25px;
+    font-size: 15px;
+    line-height: 18px;
+    border-color: #6366F1;
+    border: none;
+    cursor: pointer;
+}
+.general-line{
+    width: 98.02px;
+    height: 0px;
+    background-color: #6366F1;
+    border: 3px solid #6366F1;
+}
+.center-line{
+    position: relative;
+    bottom: 25px;
+}
+.general-container{
+    width: 80%;
+    margin: 5% auto;
+}
+div.general-container h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+/*Main CSS --> Presentation title*/
+
+.presentation{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.presentation-division{
+    position: relative;
+    width: 50%;
+    height: 300px;
+}
+
+.img-diagonal-lines{
+    position: absolute;
+    width: 165px;
+    height: 154px;
+    right: 133px;
+    top: 1%;
+    background-image: url('../img/img-diagonal-lines.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.img-main{
+    position: absolute;
+    background-image: url('../img/img-main-yo.jpg');
+    width: 225px;
+    height: 245px;
+    right: 2%;
+    top: 44px;
+    border: 4px solid rgba(99, 102, 241, 0.8);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 225px 245px;
+    border-radius: 30px;
+}
+.presentation-title{
+    right: -10px;
+    bottom: 0;
+}
+div.presentation-title h1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 20% 0 0 5%;
+}
+div.presentation-title p{
+    margin: 5% 0 0 5%;
+}
+.presentation-subline{
+    position: relative;
+    width: 290px;
+    height: 13px;
+    background: rgba(99, 102, 241, 0.3);
+    border-radius: 18px;
+    margin: 0 0 0 5%;
+    bottom: 12px;
+}
+
+
+/*Main CSS --> About*/
+.about-title{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;   
+}
+.about-line{
+    position: relative;
+    margin: 0 3%;
+    top: 3em;
+}
+
+/* .about-title::after{
+    content: "------";
+} */
+.about-text-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-text{
+    width: 75%;
+    margin: auto 0;
+    right: 0;
+}
+div.about-text p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 267.69%;
+    /* or 40px */
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.about-button{
+    
+}
+.about-button-resume{
+    width: 260px;
+}
+
+/*Main CSS --> Projects*/
+
+.project{
+    text-align: center;
+}
+div.project button{
+    margin: 5% 0;
+    width: 139px;
+}
+.project-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.project-boxes{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.img-top{
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+.img-botton{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+.project-box{
+    margin: 1%;
+    width: 300px;
+    height: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 2%;
+    position: relative;
+}
+div.project-box h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+}
+div.project-box p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+div.project-box img{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+div.project-box a{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: #6366F1;
+}
+/*div.project-box a:link{
+    color: red;
+}
+div.project-box a:hover{
+    color: #6366F1;
+}
+.project-button{
+    margin: auto;
+}*/
+
+
+/*Main CSS --> Blogs*/
+.blog-title{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+}
+.blog-line{
+    position: relative;
+    margin: 0 3%;
+    top: 3em;
+}
+.blog-boxes{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog-box{
+    /* display: inline-block; */
+    margin: 1%;
+    width: 390px;
+    height: 165px;
+    background: #FFFFFF;
+    padding: 2%;
+    position: relative;
+}
+.blog-button{
+    width: 151px;
+}
+
+/*Main CSS --> Skills*/
+.skills{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.skills-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.skills-img img{
+    margin: 2%;
+}
+/*Footer CSS*/
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-msj-container{
+    width: 70%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.footer-msj{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.55);
+}
+.footer-email{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+}
+.footer-subline{
+    width: 494px;
+    height: 16px;
+    background: rgba(22, 98, 245, 0.35);
+    border-radius: 18px;
+    position: relative;
+    bottom: 66px;
+}
+.footer-logo-container{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.footer-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #6366F1;
+    align-content: center;
+    top: 35px;
+    margin: 10% 3%;
+}
+.footer-fb{
+    background-image: url('../img/vector-fb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.footer-tw{
+    background-image: url('../img/vector-twitter.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-insta{
+    background-image: url('../img/vector-insta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+}

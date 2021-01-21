@@ -1,0 +1,7 @@
+
+
+suma()
+
+division()
+
+convertirAEntero()
