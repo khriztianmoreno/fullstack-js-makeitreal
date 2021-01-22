@@ -1,0 +1,10 @@
+//this variable is const, becouse this name is not change.
+const ourPlanet = "World"
+
+//this varible is let, becouse de name of persons is different
+let usuaryName = "Laura Monsalve"
+
+//here, we can show in the console this propierties
+console.log(ourPlanet)
+console.log(usuaryName)
+
