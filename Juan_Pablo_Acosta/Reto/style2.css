@@ -211,3 +211,121 @@ body{
 button:active{
     background-color:#5e60e7
 }
+
+.project_section{
+    display: flex;
+    margin-top:168px;
+    flex-direction: column;
+}
+
+.line2::after{
+    position: absolute;
+    flex-direction: column;
+    margin-top: 54px;
+    margin-left: -115px;
+    content:"";
+    width: 98.02px;
+    height:5px;
+    background:#6366F1;
+}
+.project_section_title h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left:651px;
+}
+
+.project_section_decorative{
+    margin-left: 189px;
+    margin-top:-14px;
+}
+
+.project_section_content{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content:space-between;
+    margin:-114px 250px 0px 250px;
+}
+
+.project_section_content_box{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    height:190px;
+    width:300px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    z-index: 1;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.project_section_button{
+    border:0px;
+    outline:none;
+    background-color: #6366F1;
+    border-radius: 25px;
+    color:white;
+    width: 139px;
+    height: 44px;   
+}
+
+.project_section_content_bottom{
+    margin-top:-4px;
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+}
+
+.project_section_decorative2{
+    position:absolute;
+    margin-left: 456px;
+    margin-top: -146px;
+}
+
+.project_section_content_box2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin:20px;
+    width: 260px;
+    height:150px;
+}
+
+.project_section_content_box2 p{
+    font-size: 14px;
+    line-height: 16,41px;
+    letter-spacing: 0.01em;
+}
+
+.project_section_content_box2 h3{
+    margin:0px;
+    font-size: 18px;
+    line-height: 21,09px;
+    letter-spacing: 0.01em;
+}
+
+.project_section_content_box2_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.project_section_content_box2_icon a{
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #6366F1;
+    text-decoration:none;
+}
+
+.icon{
+    fill: rgb(233, 78, 138);
+}
+
