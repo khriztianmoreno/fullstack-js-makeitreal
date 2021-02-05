@@ -15,4 +15,4 @@ console.log(arr1)
 arr1.shift();
 arr1.unshift("Rap","Reggae")
 
-console.log(arr1)
+console.log(arr1);
