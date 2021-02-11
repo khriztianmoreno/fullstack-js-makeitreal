@@ -1,0 +1,21 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "test node server where information of make it real fullstack js bootcamp can be accessed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run index.js"
+  },
+  "keywords": [
+    "bootcamp",
+    "node",
+    "server",
+    "homework"
+  ],
+  "author": "Alejandro Becerra",
+  "license": "MIT",
+  "dependencies": {
+    "http": "0.0.1-security"
+  }
+}
