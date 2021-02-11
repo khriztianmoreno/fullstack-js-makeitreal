@@ -96,7 +96,7 @@ const students = [
 //Creacion del servidor 
 
 const app = http.createServer((request,respose) => {
-    respose.writeHead(200, {'Contet-type': 'text/plain'})
+    respose.writeHead(200, {'Content-type': 'application/json'})
     respose.end(JSON.stringify(students))
 } )
 
