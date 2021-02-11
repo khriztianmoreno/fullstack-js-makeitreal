@@ -1,0 +1,2 @@
+#Se ignora el archivo  node_modules
+node_modules/*
