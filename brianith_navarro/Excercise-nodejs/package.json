@@ -1,0 +1,21 @@
+{
+  "name": "server-students",
+  "version": "1.0.0",
+  "description": "Lista de estudiantes MakeitReal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "students",
+    "makeitreal"
+  ],
+  "author": "brianith navarro <brianith.anm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
