@@ -17,7 +17,7 @@ Ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre
 - Daniela Calle Estrada - Ingeniera de sistemas - https://github.com/Dany0913
 - Isabella Serna - desarrollador - https://github.com/Isabella-417
 - Juan Pablo Acosta - Ingeniero mecatrónico -https://github.com/Jpacosta23
-- Jun Lopera - Publicista estratega digital
+- Jun Lopera - Publicista estratega digital - https://github.com/Juseloec
 - Laura Monsalve Arroyave - Administradora Comercial y de Mercadeo - https://github.com/lauramonsalvearroyave
 - Laura Ramos - ingeniera financiera - https://github.com/lauramosdim
 - Laura V. De Armas - Administradora de Empresas y Designer - https://github.com/Lauravdearmas
