@@ -1,2 +1,2 @@
-# Juan Lopera
-Con ganas de aprender mucho JS y poder realizar proyectos propios.
+# Juan Sebastián Lopera
+Soy Juan Sebastián Lopera, retrasado en las clases por temas laborales, preo estoy practicando y volviendo al ruedo.
